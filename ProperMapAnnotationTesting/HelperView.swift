@@ -20,6 +20,7 @@ struct HelperView: View {
         VStack(spacing: 0) {
           Text(title)
             .font(.callout)
+            .fixedSize(horizontal: true, vertical: false)
             .padding(5)
             .background(Color(.white))
             .cornerRadius(10)
