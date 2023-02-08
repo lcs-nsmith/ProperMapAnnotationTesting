@@ -26,12 +26,17 @@ struct CampusMap: View {
             }
         )
         
-        Map(coordinateRegion: region, annotationItems: positions) { position in
-            MapAnnotation(coordinate: position.coordinate) {
-                Pin(title: position.name)
+        ZStack {
+            
+            Map(coordinateRegion: region, annotationItems: positions) { position in
+                MapAnnotation(coordinate: position.coordinate) {
+                    Pin(title: position.name)
+                }
             }
+            
+            Directions()
         }
-        .onAppear {
+        .onAppear() {
             MKMapView.appearance().mapType = .satelliteFlyover
         }
         .ignoresSafeArea()
