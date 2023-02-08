@@ -10,7 +10,7 @@ import MapKit
 
 struct CampusMap: View {
     
-    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 44.439230, longitude: -78.265300), span: MKCoordinateSpan(latitudeDelta: 0.004, longitudeDelta: 0.004))
+    @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 44.439200, longitude: -78.265000), span: MKCoordinateSpan(latitudeDelta: 0.003, longitudeDelta: 0.002))
     
     @State var route: MKPolyline?
     
