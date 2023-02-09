@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44B874762995A00400CEF5F8 /* ParkingAndDirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B874752995A00400CEF5F8 /* ParkingAndDirectionsView.swift */; };
 		44D6695C2992E1F400ACA2A1 /* ProperMapAnnotationTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D6695B2992E1F400ACA2A1 /* ProperMapAnnotationTestingApp.swift */; };
 		44D6695E2992E1F400ACA2A1 /* CampusMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D6695D2992E1F400ACA2A1 /* CampusMap.swift */; };
 		44D669602992E1F600ACA2A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D6695F2992E1F600ACA2A1 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44B874752995A00400CEF5F8 /* ParkingAndDirectionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingAndDirectionsView.swift; sourceTree = "<group>"; };
 		44D669582992E1F400ACA2A1 /* ProperMapAnnotationTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProperMapAnnotationTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D6695B2992E1F400ACA2A1 /* ProperMapAnnotationTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProperMapAnnotationTestingApp.swift; sourceTree = "<group>"; };
 		44D6695D2992E1F400ACA2A1 /* CampusMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusMap.swift; sourceTree = "<group>"; };
@@ -85,8 +87,9 @@
 		81B300C6299320E9007F0AF0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				81B300C7299321F0007F0AF0 /* Helpers */,
+				44B874752995A00400CEF5F8 /* ParkingAndDirectionsView.swift */,
 				44D6695D2992E1F400ACA2A1 /* CampusMap.swift */,
+				81B300C7299321F0007F0AF0 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				81B300C5299320AE007F0AF0 /* Position.swift in Sources */,
 				44D669702992E8EA00ACA2A1 /* Pin.swift in Sources */,
 				81B300C929932E8F007F0AF0 /* Directions.swift in Sources */,
+				44B874762995A00400CEF5F8 /* ParkingAndDirectionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
